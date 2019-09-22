@@ -6,6 +6,6 @@ Simple python program to convert a video or an entire playlist from YouTube to .
 pip install pytube
 pip install ffmpeg
 ```
-
-
-
+```
+python youtubetomp3.py
+```
