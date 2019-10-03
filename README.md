@@ -18,6 +18,6 @@ pip install pytube
 pip install ffmpeg
 ```
 
-Issues | 
--- | --
-FFMPEG path is hard coded. Will change that soon |
+Issues | |
+-- | -- |
+| FFMPEG path is hard coded. Will change that soon |
