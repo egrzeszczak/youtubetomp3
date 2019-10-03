@@ -10,11 +10,14 @@ Simple python program to convert a video or an entire playlist from YouTube to m
 /____/                                                          /_/
 ```
 
-
+### Dependencies
+- pytube
+- ffmpeg
 ```python
 pip install pytube
 pip install ffmpeg
 ```
 
-Issue | 'ffmpeg' path is hard coded. Will change that soon
+Issues | 
 -- | --
+FFMPEG path is hard coded. Will change that soon |
