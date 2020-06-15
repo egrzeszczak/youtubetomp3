@@ -1,6 +1,6 @@
 # youtubetomp3
 
-Simple python program to convert a video or an entire playlist from YouTube to mp3 format 
+Download file from youtube  
 ```
                       __        __            __                          _____
    __  ______  __  __/ /___  __/ /_  ___     / /_____     ____ ___  ____ |__  /
@@ -12,12 +12,5 @@ Simple python program to convert a video or an entire playlist from YouTube to m
 
 ### Dependencies
 - pytube
+- tkinter
 - ffmpeg
-```python
-pip install pytube
-pip install ffmpeg
-```
-
-Issues | |
--- | -- |
-| FFMPEG path is hard coded. Will change that soon |
