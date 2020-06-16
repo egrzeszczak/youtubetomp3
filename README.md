@@ -1,6 +1,3 @@
-# youtubetomp3
-
-Download file from youtube  
 ```
                       __        __            __                          _____
    __  ______  __  __/ /___  __/ /_  ___     / /_____     ____ ___  ____ |__  /
@@ -10,7 +7,18 @@ Download file from youtube
 /____/                                                          /_/
 ```
 
-### Dependencies
-- pytube
-- tkinter
-- ffmpeg
+|Description|
+|:-|
+|Simplistic GIU app made in Python - download a video from youtube.com and convert it to mp3|
+___
+|Dependencies||
+|-|-|
+|ffmpeg|`$ apt-get install ffmpeg`|
+|pytube3|`$ python -m pip install pytube3`|
+|tkinter|`$ python -m pip install tkinter`|
+___
+|Known issues|
+|:-|
+|Sometimes the `title` of the video doesn't load properly - to avoid this click the search button again|
+
+![](res/thumb.png)

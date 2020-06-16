@@ -4,7 +4,7 @@ import pytube, tkinter, copy, urllib
 #define
 CURRENT_PATH = os.getcwd()
 WINDOW = tkinter.Tk()
-WINDOW.title(f"youtoo in {CURRENT_PATH}")
+WINDOW.title("youtubetomp3")
 
 def convertSize(size_bytes):
    if size_bytes == 0:
@@ -119,13 +119,13 @@ class App():
         urlInput = tkinter.Entry(mainForm, width=40)
         urlSubmit = tkinter.Button(mainForm, width=10, text="Szukaj", command= lambda: self.goSubmit(urlInput, headerFrame, resultFrame, footerFrame))
         clearSubmit = tkinter.Button(mainForm, widt=10, text="Wyczyść", command= lambda: self.set_text(urlInput, ""))
-        
+
         # Draw
         urlLabel.grid(row=0, column=0)
         urlInput.grid(row=0, column=1)
         urlSubmit.grid(row=0, column=2)
         clearSubmit.grid(row=0, column=3)
-
+        
         mainForm.pack(padx=5, pady=5)
         headerFrame.pack(padx=5, pady=5)
         resultFrame.pack(padx=5, pady=5)
