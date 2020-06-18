@@ -9,7 +9,7 @@
 
 |Description|
 |:-|
-|Simplistic GIU app made in Python - download a video from youtube.com and convert it to mp3|
+|Simplistic GUI app made in Python - download a video from youtube.com and convert it to mp3|
 ___
 |Dependencies||
 |-|-|
