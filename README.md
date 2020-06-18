@@ -20,5 +20,6 @@ ___
 |Known issues|
 |:-|
 |Sometimes the `title` of the video doesn't load properly - to avoid this click the search button again|
+|Receiving HTTP 404 Error when `?v=<tag>` includes `-` or `_`|
 
 ![](res/thumb.png)
